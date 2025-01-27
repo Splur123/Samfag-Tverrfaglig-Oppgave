@@ -1,3 +1,24 @@
 body {
-    color: gray;
+    color: orange;
+    background-color: darkred;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 3vw;
+    margin: 0 auto;
+}
+
+.loginForm {
+    background-color: BLACK;
+    height: 50vh;
+    width: 35vw;
+    min-width: 15rem;
+    min-height: 15rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    text-align: center;
 }
